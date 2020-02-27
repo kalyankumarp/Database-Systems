@@ -1,0 +1,65 @@
+Frequency AA
+
+Questions on Homework 1?
+
+A. Haven't started it
+B. Looked at it
+C. Given the assignment a try
+D. Completed the assignment
+E. There's a homework!?
+
+
+
+
+
+
+
+
+
+
+How do you feel about
+relational algebra?
+A. What is it?
+B. Bad
+C. Okay
+D. Good
+E. Ennui
+
+
+
+instructor
+A
+B
+C
+
+
+
+
+
+student
+X
+Y
+Z
+
+advises
+instructor		student
+A				X
+B				Y
+C				X
+
+X			A,C
+Y			B
+
+A. remove left arrow
+B. remove right arrow
+
+
+
+instructor		student
+A				X
+A				Y
+A				Z
+
+
+
+

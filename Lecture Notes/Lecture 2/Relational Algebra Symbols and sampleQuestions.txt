@@ -1,0 +1,15 @@
+σ - Sigma 	- select
+π - Pi 		- project
+ρ - Rho		- rename
+x - Join	- cartesian project (cross product)
+∪ - Union	- Set Union of two sets of tuples
+- - Minus	- Set difference of two sets of tuples
+
+
+1.	How many tuples are there in the Dogs relation?
+
+2.	What is the result of π				(Dogs)
+							Name,Owner
+
+3.	What is the result of σ				(Dogs)
+							Weight<15 

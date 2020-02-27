@@ -1,0 +1,26 @@
+
+CREATE TABLE EmployeeTitle(
+	EmployeeTitleId INT AUTO INCREMENT = 1,
+	EmployeeTitle VARCHAR(40),
+	PRIMARY KEY(EmployeeTitleID);
+
+CREATE TABLE Employee(
+	EmployeeID INT,
+	EmpoyeeFName VARCHAR(30) NOT NULL,
+	EmpoyeeLName VARCHAR(30) NOT NULL,
+	HireDate DATE NOT NULL,
+        PRIMARY KEY(EmployeeID),
+	-- unique, not null, has an index
+	EmployeeTitleID INT,
+	-- Foreign key (EmployeeTitleID) references EmployeeTitle(EmployeeTitleID)
+	
+	);
+
+
+
+CREATE TABLE Certified(
+	EmployeeID INT,
+	SkillID INT,
+	PRIMARY KEY(EmployeeID, SkillID),
+
+

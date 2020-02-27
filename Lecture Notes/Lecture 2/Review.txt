@@ -1,0 +1,12 @@
+What is a relation?
+What is a tuple? (Red,FF0000)
+What is an attribute?
+
+
+
+
+
+A. An ordered sequence of values
+B. An unordered sequence of strings
+C. A set of tuples
+D. An ordered sequence of names and domains

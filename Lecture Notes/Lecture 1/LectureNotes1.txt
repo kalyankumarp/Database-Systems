@@ -1,0 +1,103 @@
+Human Resources
+Health Care
+Netflix
+Transit
+Crime Records
+Google Drive
+	Cloud storage
+Social media
+
+
+-------------------------------------------------------
+
+What do we store data about?
+Human Resources
+	People
+	Jobs
+	Salaries
+	Addresses
+Health Care
+	People
+	History of Visits
+	Record of symptoms
+	Diagnoses
+Netflix
+	Movies
+	Customers
+Transit
+	Routes
+	Vehicles
+	Passengers (transit cards)
+Crime Records
+	People
+	Infractions
+Google Drive
+	Cloud storage
+	Documents
+	Users
+Social media
+	Accounts
+	Posts
+	Follows/Friends
+
+
+-------------------------------------------------------
+How do we uniquely identify the data?
+People
+	email address
+	mail address
+		Number
+		Street Name
+		Zip Code
+		City
+	Name			- Some attributes may be split into
+		First Name  - smaller pieces, these are
+		Middle Name - non-atomic
+		Last Name
+	Phone number
+	SSN - attributes that can not be split into
+		- smaller semantically meaningful components
+		- are referred to as atomic attributes
+	UID
+	
+
+-------------------------------------------------------
+
+What do you do with the data?
+Create
+Read
+Update
+Delete
+
+CRUD
+
+Netflix
+	Add a movie
+	Change the name of a movie
+	Add a customer
+	A customer may rate a movie
+	Get a movie to watch
+	List the movies
+	Group the movies
+	Remove a movie - no longer have the rights
+	
+
+
+-------------------------------------------------------
+
+A relation is a set of tuples
+ID, name, dept_name, salary
+(10101, Srinivasan, Comp. Sci., 65000)
+
+
+-------------------------------------------------------
+
+Writing relational schema:
+instructor - (_ID_, name, dept_name, salary) dept_name
+										is a foreign key
+										to department
+										
+
+
+-------------------------------------------------------
+Next time - relational algebra
